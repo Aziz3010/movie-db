@@ -1,0 +1,36 @@
+.bg{
+    background-color: #343a40;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg h6 {
+    margin: 0 1rem;
+}
+
+.icon {
+    color: red;
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heart {
+    0%{
+        font-size: 100%;
+    }
+    25%{
+        font-size: 90%;
+    }
+    50%{
+        font-size: 85%;
+    }
+    75%{
+        font-size: 90%;
+    }
+    100%{
+        font-size: 100%;
+    }
+}

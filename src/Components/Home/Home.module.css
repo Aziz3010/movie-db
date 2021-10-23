@@ -1,0 +1,21 @@
+.items {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.items_after{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 25px;
+}
+
+.items_after h6 {
+    color: #fff;
+    margin: 0;
+}
